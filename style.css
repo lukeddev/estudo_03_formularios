@@ -233,3 +233,7 @@ footer .button {
 footer .button:hover {
   background: #078f45;;
 }
+
+input:invalid { /** essas pseudoclass (invalid, hover, checked) tem haver com o estado do elemento **/
+border: 1px solid #FF1010;
+}
